@@ -1,0 +1,92 @@
+/*========
+tablet====
+=========*/
+@media only screen and (min-width:200px) and (max-width:991px){
+
+    .search_area input {
+       width: 68%;} 
+       .inner_menu ul ul {
+        position: absolute;
+        background: tomato;
+        width: 0px;
+        left: 0px;
+        top: 27px;
+        z-index: 1;
+    }
+    .inner_menu ul ul ul{
+    
+        width: 150px;
+        left: 0px;
+        top: 0px;
+    }
+    img {
+        max-width: 363px;
+      
+    }
+    .text {
+        max-width: 223px;
+        margin-top: -63px;
+        margin-left: 84px;
+        font-size: -7px;
+    }
+    .text h1 {
+        font-size: 50px;
+    }
+}
+/*========
+mobile====
+=========*/
+@media only screen and (min-width:200px) and (max-width:667px){
+
+    .mini_menu {
+        width: 100%;
+        
+    }
+    .mini_menu ul {
+       
+        text-align: center;
+    }
+    .search_area {
+      
+        width: 100%;
+        margin-top: 40px;
+    }
+    .search_area {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .logo_area a img {
+        margin-left: 69px;
+    }
+    .social_area {
+        margin-left: 25px;
+    }
+    .social_area ul {
+        margin: -31px 0px 15px 0px;
+        list-style: none;
+    }
+   
+    .inner_work {
+        display: block; 
+        justify-content: space-between;
+        background: #f2f2f2;
+        flex-wrap: wrap;
+        padding: 50px 0px;
+    }
+    .inner_contact {
+        display: block;
+       
+    }
+    .footerleft {
+        width: 100%;
+        /* float: center; */
+        margin-left: 22px;
+    }
+    .footerright {
+        /* float: right; */
+        text-align: center;
+        width: 100%;
+        /* margin-left: -7px; */
+    }
+}
